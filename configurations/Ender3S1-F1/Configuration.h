@@ -21,8 +21,8 @@
  */
 #pragma once
 
-// Created by configs generator for Professional firmware
-// https://github.com/mriscoc/Marlin_Ender3S1
+// Edited by abra5umente for Professional firmware
+// https://github.com/abra5umente/Ender3S1F1-4
 
 /**
  * Configuration.h
@@ -72,7 +72,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "Miguel A. Risco-Castillo (MRiscoC)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "Alex Schladetsch (abra5umente)" // Who made the changes.
 #define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -1339,8 +1339,8 @@
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
-#define MULTIPLE_PROBING 2  // MRiscoC Enabled
-#define EXTRA_PROBING    1  // MRiscoC Enabled
+//#define MULTIPLE_PROBING 2  // abra5umente disabled
+//#define EXTRA_PROBING    1  // abra5umente disabled
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
